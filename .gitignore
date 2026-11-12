@@ -1,0 +1,20 @@
+# Secrets / local config
+config.env
+.env
+*.env
+!config.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
